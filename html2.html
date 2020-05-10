@@ -1,0 +1,530 @@
+<!--Name: Abhishek Pandit
+	Alma matar: IIIT Bhubaneswar
+	Age:23
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gaana</title>
+	<!-- Adding CSS file to html and adding javascipt ,meta tag for responsiveness -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<script src="https://kit.fontawesome.com/a5a7a79d9a.js" crossorigin="anonymous"></script>
+	<!-- Adding icon for website -->
+	<link rel="icon" type="image/x-con" href="Pics/icon1.ico">
+	 
+</head>
+<body>
+	<!-- 
+		Comment for -Line 28-53.
+
+		This is a header section of page in which , we have a website logo and name,a favs , search bar , notification bell and user pic 
+		 Every element is inside a div tag.
+		 I have given a anchor tag to my logo image, so that after clicking on it , it will redirect to our main html page( i.e. index.html)
+
+		 
+	-->
+	<header id="body-header">
+		<div class="body-header-image">
+			<a href="index.html"><img src="https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-25-512.png" height="80px" width="40px"></a>
+		</div>
+		<div id="body-image-title">
+			<span style="font-family:Old English Text MT;text-shadow: 2px 2px 2px black;">Gaana</span>
+		</div>
+		<div id="text-3" class="mp-2 " style="font-family:Old English Text MT;text-shadow: 2px 2px 2px black;">
+			<a href="html2.html">Fav Artist</a>
+		</div>
+		<div id="search-bar" class="mp-2">
+				
+				<span class="search-bar-inside">
+					<input type="text" name="search" placeholder="Search">
+				</span>
+				
+		</div>
+		<div id="noti" class="mp-2">
+			<i class="fas fa-bell"></i>
+			<div class="noti-ball">
+			</div>
+		</div>
+		<div id="user-image" class="mp-2">
+			<img src="Pics/me.jpg">
+		</div>
+	</header>
+
+	 <section id="pa-1">
+	 	<!--
+			Comment for line 67-244
+
+			The main section contains , a singer details, and 15 songs of that singer.
+			div=pa-intro
+			This div gives the intro of the singer. 
+			Play all button is added using div tages,
+			follow button is also added.
+
+			Structure os each song :<div><img><div for play button><div for name of song<span for singer name>><div for heart empji>
+	 	-->
+    	<main class="pa">
+    		<div class="pa-intro" style="border-radius: 20%;">
+                  <div class="pa-intro-image">
+                  	<img src="Pics/camila.jpg"style="border-radius: 40%;">
+                  </div>
+                  <div class="pa-des">
+                  	    <h3 text-shadow: 2px 2px 2px black;"> Camila Cabello </h3> <br>
+                  	    <span style="color: lightgrey; font-size: 0.9rem; margin-left: 0% ;  font-family:Modern No. 20;" >80.5M Folllowers </span> <br>
+                  	    <span style="color: lightgrey; font-family:Modern No. 20;"><i>Cuban Singer</i>  </span>
+                  	    <p  style="color: lightgrey;font-family: Modern No. 20;font-size: 1.1rem"> Karla Camila Cabello Estrabao is a Cuban-American singer and songwriter. She rose to prominence as a member of the girl group Fifth Harmony, formed on The X Factor USA in 2012, signing a joint record deal with Syco Music and Epic Records.While in Fifth Harmony, Cabello began to establish herself as a solo artist with the release of the collaborations "I Know What You Did Last Summer" with Shawn Mendes, and "Bad Things" with Machine Gun Kelly, the latter reaching number four on the US Billboard Hot 100.</p>
+                  </div>
+                  <div class="pa-playlist">
+                  	<div class="pa-play text-center">
+                  		<div class="pa-playall " style="font-family:Old English Text MT ">
+                  			Play All
+                  		</div>
+                  		<span style="font-family:Modern No. 20">159 Tracks <br/>|15 Albums</span>
+                  	</div>
+                  	<div class="pa-play text-center" style="font-family:Old English Text MT ">
+                  		Follow
+                  	</div>
+                  </div>
+    		</div>
+
+    	<div class="q-list">
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-1" >
+					<img src="https://a10.gaanacdn.com/images/albums/72/2657072/crop_175x175_2657072.jpg" >
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Senorita <br> <span class="q-color">Camila Cabello </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-2">
+					<img src="https://a10.gaanacdn.com/images/albums/66/2051866/crop_175x175_2051866.jpg" >
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Havana<br><span class="q-color"> Camila Cabello</span> </div>
+				<div class="q-emoji q-color">
+						<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-3">
+					<img src="https://a10.gaanacdn.com/images/albums/77/2936477/crop_175x175_2936477.jpg" >
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Oh My God <br><span class="q-color">Camila Cabello </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-4">
+					<img src="https://a10.gaanacdn.com/images/albums/67/2796167/crop_175x175_2796167.jpg">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Shameless<br><span class="q-color">Camila Cabello </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-5">
+					<img src="https://a10.gaanacdn.com/images/albums/68/2796168/crop_175x175_2796168.jpg" >
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Liar <br><span class="q-color">Camila Cabello</span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-6">
+					<img src="https://a10.gaanacdn.com/images/albums/18/1886118/crop_175x175_1886118.jpg" >
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Hey Ma <br> <span class="q-color">Camila Cabello</span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-7">
+					<img src="https://a10.gaanacdn.com/images/albums/70/2039970/crop_175x175_2039970.jpg" >
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Never Be The Same <br><span class="q-color">Camila Cabello</span> </div>
+				<div class="q-emoji q-color">
+						<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-8">
+					<img src="https://a10.gaanacdn.com/images/albums/36/2040236/crop_175x175_2040236.jpg">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Real Friends <br><span class="q-color">Camila Cabello </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-9">
+					<img src="https://a10.gaanacdn.com/images/albums/66/2051866/crop_175x175_2051866.jpg">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> She Loves Control <br><span class="q-color">Camila Cabello</span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-10">
+					<img src="https://a10.gaanacdn.com/images/albums/16/2845916/crop_175x175_2845916.jpg">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Easy <br><span class="q-color"> Camila Cabello</span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-11">
+					<img src="https://a10.gaanacdn.com/images/albums/56/1546256/crop_175x175_1546256.jpg" >
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> I Know What You Did Last Summer <br> <span class="q-color">Camila Cabello </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-12">
+					<img src="https://a10.gaanacdn.com/images/albums/13/2204913/crop_175x175_2204913.jpg" >
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Beautiful <br><span class="q-color">Camila Cabello </span> </div>
+				<div class="q-emoji q-color">
+						<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-13">
+					<img src="https://a10.gaanacdn.com/images/albums/32/2835532/crop_175x175_2835532.jpg" >
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Cry For Me <br><span class="q-color">Camila Cabello </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-14">
+					<img src="https://a10.gaanacdn.com/images/albums/28/1902328/crop_175x175_1902328.jpg" >
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Crying In The Club<br><span class="q-color"> Camila Cabello</span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-15">
+					<img src="https://a10.gaanacdn.com/images/albums/17/2718517/crop_175x175_2718517.jpg" >
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> South Of The Border <br><span class="q-color">Camila Cabello </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+
+		</div>
+    	</main>
+   <!--
+   		Comment for line 257-333
+		This is aside section of webpage , is shows two different parts,
+		first part is for showing Similar artists,
+		div=simi-art
+		It contains 3 singers div
+		In each [div] ,
+				on top right corner, there is a more section,
+				in which , we have  Play Now , Add to Queue ,Add to Favourites and Get Info choices.
+					Wich is made using ul(unordered list) , have 4 list items(li)
+
+   -->
+    	<aside>
+    		<div class="simi-art">
+    			<h2 style="font-family:Old English Text MT;text-shadow: 2px 2px 2px black;"> Similar Artists </h2>  <br>
+    			<span style="color: lightgrey; font-size: 15px ;font-family:Old English Text MT "><u>View all</u> </span> <br> <br>
+    			<div id="songs">
+				<div class="border">
+					<div class="port-display">
+						<img src="https://media1.popsugar-assets.com/files/thumbor/AK19MHoD8cv7k9tglCxOrwbbf_Y/733x204:2802x2273/fit-in/500x500/filters:format_auto-!!-:strip_icc-!!-/2019/09/04/019/n/1922398/7c2241aa5d7048792c0e23.11693945_/i/Shawn-Mendes.jpg" style="border-radius: 30%">
+                    </div>
+	                  <div class="center">
+	                  	Shawn Mendes
+	                  	<p class="color-date"> 	Canadian singer </p>
+	                  </div>
+	                  <div class="right">
+		                  <p >71.2M</p>
+	                  </div>
+	                
+				</div>
+				<div class="border">
+					<div class="port-display">
+						<img src="http://s9.favim.com/orig/130902/beautiful-taylor-swift-white-Favim.com-891649.png" style="border-radius: 30%">
+                    </div>
+	                  <div class="center">
+	                  	Taylor Swift
+	                  	<p class="color-date"> American singer </p>
+	                  </div>
+	                  <div class="right">
+		                  <p >87.9M</p>
+	                  </div>
+	                </div>
+	                <div class="border">
+					<div class="port-display">
+						<img src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTQ3MzM3MTcxNjA5NTkzNjQ3/ariana_grande_photo_jon_kopaloff_getty_images_465687098.jpg" style="border-radius: 30%">
+                    </div>
+	                  <div class="center">
+	                  	Ariana Grande
+	                  	<p class="color-date"> 	American singer </p>
+	                  </div>
+	                  <div class="right">
+		                  <p >75.7M</p>
+	                  </div>
+	                </div>
+	            </div>
+    		</div>
+    		<!--
+				Comment for line 341-497
+				This section of web page is , recently played section	
+				This section will show 15 songs in aside.
+				Structire of each song:	<div><img><div for play button><div for song name<span for singer name>><div for heart emoji>
+
+    		-->
+    		<div class="simi-art">
+    			<h2 style="font-family:Old English Text MT;text-shadow: 2px 2px 2px black;"> Recently Played </h2>  <br>
+    			<span style="color: lightgrey; font-size: 15px ;font-family:Old English Text MT "> <u>View all</u></span> <br> <br>
+	    		<div class="q-list">
+				<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-1">
+					<img src="https://charts-static.billboard.com/img/2017/07/dua-lipa-vxi-106x106.jpg?1" >
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> New Rules <br> <span class="q-color">Dua Lipa</span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-2">
+					<img src="https://charts-static.billboard.com/img/2018/02/marshmello-9ph-106x106.jpg?1">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Friends <br><span class="q-color">Marshmello </span> </div>
+				<div class="q-emoji q-color">
+						<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-3">
+					<img src="https://charts-static.billboard.com/img/2018/03/shawn-mendes-2fw-106x106.jpg?1">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> In My Blood <br><span class="q-color">Shawn Mendes </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-4">
+					<img src="https://cdn.styledtosparkle.com/wp-content/uploads/2017/01/TaylorSwift-ShakeItOFf.jpg">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Shake It Off <br><span class="q-color">Taylor Swift </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-5">
+					<img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Teenage_Dream_single_cover.png">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Teenage Dreams
+ 				<br><span class="q-color">Katy Perry </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-6">
+					<img src="https://charts-static.billboard.com/img/2017/01/ed-sheeran-buv-106x106.jpg?1">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Shape Of You
+ 				<br> <span class="q-color">Ed Sheeran</span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-7">
+					<img src="https://upload.wikimedia.org/wikipedia/en/8/82/Enrique_Iglesias_-_I_Like_It.jpg">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> I Like It <br><span class="q-color">Enrique Iglesias </span> </div>
+				<div class="q-emoji q-color">
+						<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-8">
+					<img src="https://charts-static.billboard.com/img/2015/04/zayn-m6r.jpg">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Pillowtalk <br><span class="q-color">Zayn </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-9">
+					<img src="https://charts-static.billboard.com/img/2016/03/fifth-harmony-tsq-87x87.jpg?1">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Work From Home <br><span class="q-color">Fifth Harmony</span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-10">
+					<img src="https://charts-static.billboard.com/img/2015/05/twenty-one-pilots-840-106x106.jpg?1">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Stressed Out <br><span class="q-color"> twenty one pilots</span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-11">
+					<img src="https://upload.wikimedia.org/wikipedia/en/4/48/Genda_Phool_%28cover_art%29.jpg">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Genda Phool <br> <span class="q-color">Badshah </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-12">
+					<img src="https://www.the360mag.com/wp-content/uploads/2020/02/wp-1581715290844.jpg">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Intentions <br><span class="q-color">Justin Beaber </span> </div>
+				<div class="q-emoji q-color">
+						<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-13">
+					<img src="https://a10.gaanacdn.com/images/albums/67/2796167/crop_175x175_2796167.jpg">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Shameless <br><span class="q-color">Camila Cabello </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-14">
+					<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/13c1dd93-cdc9-4c0f-9c99-05076021c8ab/d9a9rb5-37efe303-a884-478e-ac56-db4ed1e99fa3.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEzYzFkZDkzLWNkYzktNGMwZi05Yzk5LTA1MDc2MDIxYzhhYlwvZDlhOXJiNS0zN2VmZTMwMy1hODg0LTQ3OGUtYWM1Ni1kYjRlZDFlOTlmYTMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.__Jobh7A2rFWroEOEmPdNIxw17DjT_1twoER7ZiHBZk" >
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> See You Again <br><span class="q-color">Charlie Puth </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-15">
+					<img src="https://a10.gaanacdn.com/images/albums/68/2796168/crop_175x175_2796168.jpg" >
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Liar
+ 				<br><span class="q-color">Camila Cabello</span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			
+
+
+    		</div>
+    	</aside>
+    </section>
+    <!-- This sectio of webpage is footer section,
+		We get this section , after clicking on songs in Simiar artists section,
+		As the songs are linked through anchor tag to this footer section.
+    -->
+
+<footer>
+
+
+		<div class="song-description">
+			<div class="thumbnail-xs-square">
+			<img src="https://a10.gaanacdn.com/images/albums/70/2039970/crop_175x175_2039970.jpg" style="border-radius: 50%;height: 80px;width: 80px;overflow: hidden;">							
+			</div>
+			<div class="description-left">
+				<div class="title">
+					Never Be The Same
+				</div>
+				<div class="subtitle">
+					<i>Camila Cabello</i>						
+				</div>
+			</div>
+		</div>
+		<div class="progress-panel">
+			<div class="buttons">
+				<div >
+					<i class="fas fa-random"></i>&emsp;&emsp;
+				</div>
+				<div >
+					<i class="fas fa-step-backward"></i>&emsp;&emsp;
+				</div>
+				<div >
+					<i class="far fa-play-circle"></i>&emsp;&emsp;
+				</div>
+				<div >
+					<i class="fas fa-step-forward"></i>&emsp;&emsp;
+				</div>
+				<div >
+					<i class="fas fa-random"></i>&emsp;&emsp;
+				</div>
+			</div>
+			<div class="time-and-progress">
+				<div class="time">
+					3:02
+				</div>
+				<div class="progress-bar pointer">
+					<div class="progress"></div>
+					<div class="progress-pointer"></div>
+				</div>
+				<div class="time">
+					4:05
+				</div>
+			</div>
+		</div>
+		<div class="like-icon footer-icon pointer"><i class="far fa-thumbs-up"></i></div>
+		<div class="download-icon footer-icon pointer"><i class="fas fa-volume-up"></i></div>
+		<div class="footer-menu footer-icon pointer"><i class="fas fa-bars"></i></div>
+	</footer>
+
+
+</body>
+</html>

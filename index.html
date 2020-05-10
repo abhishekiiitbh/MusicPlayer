@@ -1,0 +1,556 @@
+<!--Name: Abhishek Pandit
+	Alma matar: IIIT Bhubaneswar
+	Age:23
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gaana</title>
+	<!-- Adding CSS file to html and adding javascipt ,meta tag for responsiveness -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<script src="https://kit.fontawesome.com/a5a7a79d9a.js" crossorigin="anonymous"></script>
+	<!-- Adding icon for website -->
+	<link rel="icon" type="image/x-con" href="Pics/icon1.ico">
+</head>
+<body>
+	<!-- 
+		Comment for -Line 26-51.
+
+		This is a header section of page in which , we have a website logo and name,a favs , search bar , notification bell and user pic 
+		 Every element is inside a div tag.
+		 I have given a anchor tag to my logo image, so that after clicking on it , it will redirect to our main html page( i.e. index.html)
+
+		 
+	-->
+	<header id="body-header">
+		<div class="body-header-image">
+			<a href="index.html"><img src="https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-25-512.png" height="80px" width="40px"></a>
+		</div>
+		<div id="body-image-title">
+			<span style="font-family:Old English Text MT ;text-shadow: 2px 2px 2px black;">Gaana</span>
+		</div> 
+		<div id="text-3" class="mp-2 "style="font-family:Old English Text MT;text-shadow: 2px 2px 2px black;">
+			<a href="html2.html">Fav Artist</a>
+		</div>
+		<div id="search-bar" class="mp-2">
+				
+				<span class="search-bar-inside">
+					<input type="text" name="search" placeholder="Search">
+				</span>
+				
+		</div>
+		<div id="noti" class="mp-2">
+			<i class="fas fa-bell"></i>
+			<div class="noti-ball">
+			</div>
+		</div>
+		<div id="user-image" class="mp-2">
+			<img src="Pics/me.jpg" >
+		</div>
+	</header>
+	<!-- This main section divided into 6 parts namesly , 1)featured songs,2)Latest Releases,3)Popular Artists,4)Station1,5)Station2,6)Latest Songs-->
+	<main id="main-1">
+		
+		<!-- 
+			Comment for -Line 65-75.
+
+			div id=main-images,
+			This div contains 3 featured songs.
+			I have used img tag which is included in separate div tag.
+
+			Structure: [img][img][img]
+		-->
+		<h2 style="font-family:Old English Text MT;text-shadow: 2px 2px 2px black;font-size: 50px"><center>Featured Songs</center></h2>
+		<div class="main-images">
+			<div class="pic-1 pic-pos">
+				<img class="img-pic-size" src="https://upload.wikimedia.org/wikipedia/en/0/02/Enrique_Iglesias_-_I%27m_a_Freak.png"> 
+			</div>
+			<div class="pic-1 pic-pos">
+				<img class="img-pic-size" src="https://upload.wikimedia.org/wikipedia/en/9/98/Havana_%28featuring_Young_Thug%29_%28Official_Single_Cover%29_by_Camila_Cabello.png">
+			</div>
+			<div class="pic-1 pic-pos">
+				<img class="img-pic-size" src="https://upload.wikimedia.org/wikipedia/en/4/41/Katy_Perry_-_Roar.png">
+			</div>
+
+		</div>
+
+		<!-- 
+			Comment for -Line 94-195.
+
+			div id=latest-release,
+			This div contains 4  latest songs.
+
+			Structure: [img][img]
+					   [img][img]
+					 
+
+		-->
+
+		<div id="latest-release">
+			<h3 class="font-size" style="font-family:Old English Text MT;text-shadow: 2px 2px 2px black;">Latest Release</h3>
+			<div id="songs">
+				<div class="border">
+					<div class="port-display">
+
+                      <img src="https://cdn.styledtosparkle.com/wp-content/uploads/2017/01/TaylorSwift-ShakeItOFf.jpg" style="border-radius: 50%;">
+
+                    </div>
+	                  <div class="center" >
+	                  	<p >Shake It Off</p>
+	                  	<p class="color-date"> 	09 March 2020</p>
+	                  </div>
+	                  <div class="right">
+		                  <p class="color-date">4:23</p>
+	                  </div>
+	                
+				</div>
+				<div class="border">
+					<div class="port-display">
+						<img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Teenage_Dream_single_cover.png" style="border-radius: 50%;">
+                    </div>
+	                  <div class="center">
+	                  	<p>Teenage Dreams</p>
+	                  	<p class="color-date"> 	17 March 2020 </p>
+	                  </div>
+	                  <div class="right">
+		                  <p class="color-date">3:39</p>
+	                  </div>
+	                 
+				</div>
+				<div class="border">
+					<div class="port-display">
+						<img src="https://upload.wikimedia.org/wikipedia/en/c/c0/Enriquebailandocover.jpg" style="border-radius: 50%;">
+                    </div>
+	                  <div class="center">
+	                  	<p>Bailando</p>
+	                  	<p class="color-date"> 	20 March 2020 </p>
+	                  </div>
+	                  <div class="right">
+		                  <p class="color-date">4:35</p>
+	                  </div>
+
+				</div>
+				<div class="border">
+					<div class="port-display">
+						<img src="https://upload.wikimedia.org/wikipedia/en/b/b1/Charli_XCX_-_Boom_Clap_%28Alternate_Single_Cover%29.png" style="border-radius: 50%;">
+                    </div>
+	                  <div class="center">
+	                  	<p >Boom Clap</p>
+	                  	<p class="color-date"> 	23 March 2020 </p>
+	                  </div>
+	                  <div class="right">
+		                  <p class="color-date">5:05</p>
+	                  </div>
+	                  
+	 			</div>
+				
+			</div>
+		</div>
+
+		<!-- 
+			Comment for -Line 208-226.
+
+			div id=popular-artist,
+			This div contains 6 popular musicians.
+			
+			Structure: <div><figure><img><a><figcaption>
+				On clicking on it , we redirect to html2.html page using anchor tag,
+		-->
+
+
+		<div id="popular-artist">
+			<h3 class="font-size" style="font-family:Old English Text MT;text-shadow: 2px 2px 2px black;"> <center>Popular Artists</center> </h3>
+			<div style="font-family:'Baloo Thambi 2';border-radius: 10%;text-shadow: 2px 2px 2px black;text-align: center;">Camila Cabello</div>
+			<div class="inside-pa">
+				<a href="html2.html"><div class="inside-pa-image"><img src="Pics/cam2.jpg" height="300px" style="opacity: 0.4;box-shadow: 0 0 15px 15px black;border-radius: 35%;">
+
+				</div>
+				</a>
+
+				<div class="inside-pa-image"> 
+					<figure> 
+						<img src="Pics/calvin.jpg">
+						<a href="html2.html" class="icon" id="icon1">
+							<i class="fas fa-play"></i>
+						</a>
+						<div class="artist-name">Calvin Harris</div>
+					</figure>
+				</div>
+				<div class="inside-pa-image"> 
+					<figure> 
+						<img src="Pics/katy.jpg">
+						<a href="html2.html" class="icon" id="icon1">
+							<i class="fas fa-play"></i>
+						</a>
+						<div class="artist-name">Katy Perry</div>
+					</div>
+				<div class="inside-pa-image"> 
+					<figure>
+						<img src="https://dz01iyojmxk8t.cloudfront.net/wp-content/uploads/2016/02/06052540/chris-martin-coldplay.jpg">
+						<a href="html2.html" class="icon" id="icon1">
+							<i class="fas fa-play"></i>
+						</a>
+						<div class="artist-name">ColdPlay</div>
+					</figure>
+				</div>
+				<div class="inside-pa-image"> 
+					<figure>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Ellie_Goulding_March_18%2C_2014_%28cropped%29.jpg/330px-Ellie_Goulding_March_18%2C_2014_%28cropped%29.jpg">
+						<a href="html2.html" class="icon" id="icon1">
+							<i class="fas fa-play"></i>
+						</a>
+						<div class="artist-name">Ellie Goulding</div>
+					</figure>
+				</div>
+				<div class="inside-pa-image"> 
+					<figure>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Demi_Lovato_2020.jpg/330px-Demi_Lovato_2020.jpg">
+						<a href="html2.html" class="icon" id="icon1">
+							<i class="fas fa-play"></i>
+						</a><div class="artist-name">Demi Lovato</div>
+					</figure>
+				</div>
+			</div>
+		</div>
+		<h3 class="font-size" style="font-family:Old English Text MT;text-shadow: 2px 2px 2px black;"> <center>Stations</center> </h3>
+		<!-- 
+			Comment for -Line 238-277.
+
+			div id=stations,
+			This div have 6 popular stations, namely ,
+			Classical ,Pop ,Rock ,Metal ,Country , Hip-Hop
+			Structure: Using div and img tags
+					[[img][name]]
+		-->
+
+		<div class="stations" >
+
+		
+
+		    <div class="stations-border" style="border-radius: 25%">
+		    	<div class="stations-border-image">
+		    		<img src="https://media.buzzle.com/media/images-en/gallery/entertainment/music/600-dv1970003-background-music.jpg"> 
+		    		<div class="overlay"></div>
+		    		<span> Classical </span>
+		    	</div>
+		    	<div class="stations-border-image">
+		    		<img src="https://media.buzzle.com/media/images-en/gallery/entertainment/music/600-498950437-love-song.jpg"> 
+		    		<div class="overlay"></div>
+		    		<span> Pop </span>
+		    	</div>
+		    	<div class="stations-border-image">
+		    		<img src="https://media.buzzle.com/media/images-en/gallery/entertainment/music/600-528906123-music-show.jpg"> 
+		    		<div class="overlay"></div>
+		    		<span> Rock </span>
+		    	</div>
+		    	<div class="stations-border-image">
+		    		<img src="https://media.buzzle.com/media/images-en/gallery/entertainment/music/600-76753578-singing-song.jpg">
+		    		<div class="overlay"></div>
+		    		<span> Metal </span>
+		    	</div>
+		    	<div class="stations-border-image">
+		    		<img src="https://media.buzzle.com/media/images-en/gallery/entertainment/music/600-101442192-guitar.jpg"> 
+		    		<div class="overlay"></div>
+		    		<span> Country </span>
+		    	</div>
+		    	<div class="stations-border-image">
+		    		<img src="https://media.buzzle.com/media/images-en/gallery/entertainment/music/600-489779580-pop-song.jpg"> 
+		    		<div class="overlay"></div>
+		    		<span> Hip-Hop </span>
+		    	</div>
+		    	
+		    </div>
+		</div>
+
+		<!-- 
+			Comment for -Line 288-301.
+
+			div id=stations-2,
+			This div have 3 popular stations type, namely ,
+			Party,Electronic and Road Trip
+			Structure: Using div and img tags
+					[[img][name]]
+		-->
+		<br/><br/><br/>
+		<div id="stations-2"  >
+			<div class="stations-2-image">
+				<img src="https://media.buzzle.com/media/images-en/gallery/entertainment/music/600-502871870-girls-singing-song.jpg">
+				<div class="text-position"> EDM </div>
+			</div>
+			<div class="stations-2-image">
+				<img src="https://wallpapercave.com/wp/wp3355423.jpg">
+				<div class="text-position"> Electronic </div>
+			</div>
+			<div class="stations-2-image">
+				<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/roadtrip-1583526313.jpg?crop=1.00xw:0.753xh;0,0.247xh&resize=980:*">
+				<div class="text-position"> Road Trip </div>
+			</div>
+		</div>
+
+		<!-- 
+			Comment for -Line 316-339.
+
+			div id=lastest-songs-eh,
+			have written haeading using h3 tag.
+			This div is divided into 2 inside-eh div
+			for latest hindi and english songs
+			Each inside-eh div, contains 4 div which is having img tag contained in figure tag.
+			Used span tag for writing date.
+			Structure: Using div and img ,figure and span tags
+					[[song1][song2][song3][song4]]
+		-->
+
+		<div class="lastest-songs-eh">
+			<h3 class="font-size" style="font-family:Old English Text MT;text-shadow: 2px 2px 2px black;">Latest Hindi</h3>
+			<div class="inside-eh">
+				<div class="inside-pa-image"> <figure> <img src="https://upload.wikimedia.org/wikipedia/en/4/48/Genda_Phool_%28cover_art%29.jpg"><figcaption> Genda Phool <br> <span class="color-date"> 16 Apr 2020 </span></figcaption></figure></div>
+				<div class="inside-pa-image"> <figure> <img src="https://a10.gaanacdn.com/images/song/30/29547130/crop_175x175_1581488718.jpg"><figcaption> Dus Bahane 2.0 <br> <span class="color-date"> 17 Apr 2020 </span></figcaption></figure></div>
+				<div class="inside-pa-image"> <figure> <img src="https://m.media-amazon.com/images/M/MV5BYjYzMGQ1NjMtOWZjOS00NmVhLWJhMmEtNDA3ZWMyN2QyMzRlXkEyXkFqcGdeQXVyMTA5NzIyMDY5._V1_UY268_CR16,0,182,268_AL__QL50.jpg"><figcaption> Malang<br> <span class="color-date"> 18 Apr 2020 </span></figcaption></figure></div>
+				<div class="inside-pa-image"> <figure> <img src="https://miro.medium.com/max/600/1*yeI0-UI4ODLEcXaVFJX4_w.jpeg"><figcaption> Goa Beach<br> <span class="color-date"> 25 Apr 2020  </span></figcaption></figure></div>
+			</div>
+		
+		
+			<h3 class="font-size" style="font-family:Old English Text MT;text-shadow: 2px 2px 2px black;"><br/><br/>Latest English</h3>
+			<div class="inside-eh">
+
+				<div class="inside-pa-image"> <figure> <img src="https://upload.wikimedia.org/wikipedia/en/0/06/EI-Addicted.jpg"><figcaption> Addicted  <br> <span class="color-date"> Apr 27,2020 </span></figcaption></figure></div>
+				<div class="inside-pa-image"> <figure> <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Demi_Lovato_-_Skyscraper.png"><figcaption> Skyscraper <br> <span class="color-date"> Apr 8, 2020 </span></figcaption></figure></div>
+				<div class="inside-pa-image"> <figure> <img src="https://upload.wikimedia.org/wikipedia/en/4/4e/Justonelasttime.png"><figcaption> Just One Last Time <br> <span class="color-date"> Apr 20, 2020 </span></figcaption></figure></div>
+				<div class="inside-pa-image"> <figure> <img src="https://upload.wikimedia.org/wikipedia/en/1/1c/Alexandra_Stan_-_Lemonade.jpg"><figcaption> Lemonade <br> <span class="color-date"> Mar 24, 2020 </span></figcaption></figure></div>
+				
+
+			</div>
+		</div>
+		
+	</main>
+
+	<!-- 
+		Comments for line 348-515
+
+		aside section :Shows song in Queue
+		Added 15 songs
+
+		structure: <div><img><div for play button><div for name of song<span for singer name>><div for heart empji>
+
+	-->
+
+	<aside>
+		<h2 style="font-family:Old English Text MT;text-shadow: 2px 2px 2px black;"> Queue</h2>
+		<div class="q-list">
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-1">
+					<img src="https://charts-static.billboard.com/img/2016/01/mike-posner-oiz-106x106.jpg?1" >
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> I Took A Pill In Ibiza <br> <span class="q-color">Mike Posner </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-2">
+					<img src="https://charts-static.billboard.com/img/2016/03/fifth-harmony-tsq-87x87.jpg?1">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Work From Home <br><span class="q-color">Fifth Harmony </span> </div>
+				<div class="q-emoji q-color">
+						<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-3">
+					<img src="https://charts-static.billboard.com/img/2015/11/lukas-graham-7bg-106x106.jpg?1" >
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> 7 Years <br><span class="q-color">Lukas Graham</span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-4">
+					<img src="https://charts-static.billboard.com/img/2015/04/zayn-m6r.jpg">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Pillowtalk <br><span class="q-color">Zayn </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-5">
+					<img src="https://charts-static.billboard.com/img/2015/05/twenty-one-pilots-840-106x106.jpg?1">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Stressed Out <br><span class="q-color">twenty one pilots </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-6">
+					<img src="https://charts-static.billboard.com/img/2016/02/the-chainsmokers-05s-dont-let-me-down-0y2-106x106.jpg?1">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Don't Let Me Down <br> <span class="q-color">The Chainsmokers</span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-7">
+					<img src="https://charts-static.billboard.com/img/2017/01/ed-sheeran-buv-106x106.jpg?1">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Shape Of You <br><span class="q-color">Ed Sheeran </span> </div>
+				<div class="q-emoji q-color">
+						<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-8">
+					<img src="https://charts-static.billboard.com/img/2009/07/justin-bieber-4oh-106x106.jpg?1">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Sorry <br><span class="q-color">Justin Bieber </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-9">
+					<img src="https://a10.gaanacdn.com/images/albums/70/2039970/crop_175x175_2039970.jpg">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Never Be The Same <br><span class="q-color">Camila Cabello </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-10">
+					<img src="https://charts-static.billboard.com/img/2014/07/shawn-mendes-hoz-106x106.jpg?1">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Stitches <br><span class="q-color"> Shawn Mendes </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-11">
+					<img src="https://charts-static.billboard.com/img/2017/08/camila-cabello-4tx-106x106.jpg?1">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Havana <br> <span class="q-color">Camila Cabello </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-12">
+					<img src="https://charts-static.billboard.com/img/2018/03/shawn-mendes-2fw-106x106.jpg?1">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> In My Blood <br><span class="q-color">Shawn Mendes </span> </div>
+				<div class="q-emoji q-color">
+						<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-13">
+					<img src="https://charts-static.billboard.com/img/2017/01/luis-fonsi-ajp-despacito-304-106x106.jpg?1">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Despacito <br><span class="q-color">Luis Fonsi </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-14">
+					<img src="https://charts-static.billboard.com/img/2018/02/marshmello-9ph-106x106.jpg?1">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> Friends <br><span class="q-color">Marshmello </span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="inside-q-list">
+				<div class="inside-q-list-image" id="q-15">
+					<img src="https://charts-static.billboard.com/img/2017/07/dua-lipa-vxi-106x106.jpg?1">
+					<div class="q-play"> <i class="fas fa-play"></i></div>
+				</div>
+				<div class="inside-q-text"> New Rules <br><span class="q-color">Dua Lipa</span> </div>
+				<div class="q-emoji q-color">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			
+		</div>
+	</aside>
+
+   <!--
+	This is footer section of webpage, we get to this section after clicking latest release songs.
+	As it is linked through <a> tag(anchor).
+
+   -->
+   
+   <footer>
+
+
+		<div class="song-description">
+			<div class="thumbnail-xs-square">
+			<img src="https://upload.wikimedia.org/wikipedia/en/c/c0/Enriquebailandocover.jpg" style="border-radius: 50%;height: 80px;width: 80px;overflow: hidden;">							
+			</div>
+			<div class="description-left">
+				<div class="title">
+					Bailando
+				</div>
+				<div class="subtitle">
+					<i>Enrique Iglaseas</i>							
+				</div>
+			</div>
+		</div>
+
+		<div class="progress-panel">
+			<div class="buttons">
+				<div >
+					<i class="fas fa-random"></i>&emsp;&emsp;
+				</div>
+				<div >
+					<i class="fas fa-step-backward"></i>&emsp;&emsp;
+				</div>
+				<div >
+					<i class="far fa-play-circle"></i>&emsp;&emsp;
+				</div>
+				<div >
+					<i class="fas fa-step-forward"></i>&emsp;&emsp;
+				</div>
+				<div >
+					<i class="fas fa-random"></i>&emsp;&emsp;
+				</div>
+			</div>
+			<div class="time-and-progress">
+				<div class="time">
+					3:02
+				</div>
+				<div class="progress-bar pointer">
+					<div class="progress"></div>
+					<div class="progress-pointer"></div>
+				</div>
+				<div class="time">
+					4:05
+				</div>
+			</div>
+		</div>
+		<div class="like-icon footer-icon pointer"><i class="far fa-thumbs-up"></i></div>
+		<div class="download-icon footer-icon pointer"><i class="fas fa-volume-up"></i></div>
+		<div class="footer-menu footer-icon pointer"><i class="fas fa-bars"></i></div>
+	</footer>
+
+
+</body>
+</html>
