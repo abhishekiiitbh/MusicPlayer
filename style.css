@@ -30,10 +30,10 @@ a{
 	display: flex;
 	border-radius: 10%;
 	justify-content: space-between;
-    background-color: #33313b;
-    box-shadow: 0 0 5px 5px black;
-    box-sizing: border-box;
-    z-index: 20;
+    	background-color: #33313b;
+    	box-shadow: 0 0 5px 5px black;
+    	box-sizing: border-box;
+    	z-index: 20;
 
     /*background-image: url(Pics/beach1.png);*/
 
@@ -41,8 +41,8 @@ a{
 
 #body-header:hover
 {
-background-color: #485461;
-background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+	background-color: #485461;
+	background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 }
 
 .body-header-image
@@ -90,7 +90,7 @@ background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 
 .mp-2
 {
-   margin-top: 2%;
+   	margin-top: 2%;
 }
 
 #text-3
@@ -115,13 +115,13 @@ background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 #search-bar input[type="text"]
 {
 	padding: 6px 30px;
-    border-radius: 20px;
-    height: 35px;
-    font-size: 15px;
-    font-weight: 700;
-    border: none;
-    background-color: grey;
-    color: white;
+    	border-radius: 20px;
+    	height: 35px;
+    	font-size: 15px;
+    	font-weight: 700;
+    	border: none;
+    	background-color: grey;
+    	color: white;
 	outline: none;
 	box-sizing: border-box;
 
@@ -129,46 +129,46 @@ background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 
 #search-bar .search-bar-inside::before
 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "FontAwesome";
-    content: "\f002";
-    color: white;
-    width: 30px;
-    height: 100%;
-    font-size: 1.1rem;
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	font-family: "FontAwesome";
+    	content: "\f002";
+    	color: white;
+    	width: 30px;
+    	height: 100%;
+    	font-size: 1.1rem;
 }
 
 #search-bar .search-bar-inside::after
 {
 	position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "FontAwesome";
-    content: "\f130";
-    color: #93a8b3;
-    width: 30px;
-    height: 100%;
-    font-size: 1.1rem;
+    	top: 0;
+    	right: 0;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	font-family: "FontAwesome";
+    	content: "\f130";
+    	color: #93a8b3;
+    	width: 30px;
+    	height: 100%;
+    	font-size: 1.1rem;
 }
 
 .button
 {
-    width: 40px;
-    height: 40px;
-    border-radius: 10px 10px 10px 10px;
-    background-color: #12193E;
-    border: none;
-    color: #E3E3E7;
-    margin-left: -74px;
-    padding: 10px;
+    	width: 40px;
+    	height: 40px;
+    	border-radius: 10px 10px 10px 10px;
+    	background-color: #12193E;
+    	border: none;
+    	color: #E3E3E7;
+    	margin-left: -74px;
+    	padding: 10px;
 }
 
 #micro .button
@@ -271,10 +271,10 @@ main
 	margin-left: 25px;
 	margin-right: 35px;
 	margin-top: 40px;
-    margin-bottom: 40px;
-    display: flex;
-    width: 95%;
-    position: relative;
+    	margin-bottom: 40px;
+    	display: flex;
+    	width: 95%;
+    	position: relative;
 }
 
 .main-images:hover
@@ -365,9 +365,9 @@ main
 
 #latest-release #songs .border:hover
 {
-background-color: #63d471;
-background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
-box-shadow: 0 0 5px 5px black;
+	background-color: #63d471;
+	background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+	box-shadow: 0 0 5px 5px black;
 
 }
 
@@ -375,7 +375,7 @@ box-shadow: 0 0 5px 5px black;
 #latest-release #songs .border .port-display img:hover
 {
 	transform: translateX(9%);
-	box-shadow: 0 0 5px 5px white;
+	box-shadow: 0 0 5px 5px black;
 	/*box-shadow: 0 0 10px 10px black;*/
 }
 
