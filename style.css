@@ -824,7 +824,7 @@ main  .inside-q-list:hover
 {
 	border:none;
 	border-radius: 30%;
-	box-shadow: 0px 0px 12px 8px #C3073F;
+	box-shadow: 0px 0px 12px 12px black;
 	transform: translateX(25%);
 
 }
