@@ -3,7 +3,6 @@
 body
 {
 	color: white;
-	/*background-color: black;*/
 	background-color: #1A1A1D;
 	margin-bottom: 111px;
 }
@@ -22,6 +21,7 @@ a{
 #body-header
 {
 	position: fixed;
+	margin-top: 1%;
 	top:0;
 	left: 0;
 	padding: 20px 30px 0px;
@@ -30,10 +30,10 @@ a{
 	display: flex;
 	border-radius: 10%;
 	justify-content: space-between;
-    	background-color: #33313b;
-    	box-shadow: 0 0 5px 5px black;
-    	box-sizing: border-box;
-    	z-index: 20;
+    background-color: #33313b;
+    box-shadow: 0 0 5px 5px black;
+    box-sizing: border-box;
+    z-index: 20;
 
     /*background-image: url(Pics/beach1.png);*/
 
@@ -41,8 +41,8 @@ a{
 
 #body-header:hover
 {
-	background-color: #485461;
-	background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+background-color: #485461;
+background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 }
 
 .body-header-image
@@ -90,7 +90,7 @@ a{
 
 .mp-2
 {
-   	margin-top: 2%;
+   margin-top: 2%;
 }
 
 #text-3
@@ -98,6 +98,7 @@ a{
 	font-size: 1rem;
 	margin-right: 32%;
 }
+
 
 #search-bar
 {
@@ -115,13 +116,13 @@ a{
 #search-bar input[type="text"]
 {
 	padding: 6px 30px;
-    	border-radius: 20px;
-    	height: 35px;
-    	font-size: 15px;
-    	font-weight: 700;
-    	border: none;
-    	background-color: grey;
-    	color: white;
+    border-radius: 20px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    background-color: grey;
+    color: white;
 	outline: none;
 	box-sizing: border-box;
 
@@ -129,46 +130,46 @@ a{
 
 #search-bar .search-bar-inside::before
 {
-    	position: absolute;
-    	top: 0;
-    	left: 0;
-    	display: flex;
-    	justify-content: center;
-    	align-items: center;
-    	font-family: "FontAwesome";
-    	content: "\f002";
-    	color: white;
-    	width: 30px;
-    	height: 100%;
-    	font-size: 1.1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "FontAwesome";
+    content: "\f002";
+    color: white;
+    width: 30px;
+    height: 100%;
+    font-size: 1.1rem;
 }
 
 #search-bar .search-bar-inside::after
 {
 	position: absolute;
-    	top: 0;
-    	right: 0;
-    	display: flex;
-    	justify-content: center;
-    	align-items: center;
-    	font-family: "FontAwesome";
-    	content: "\f130";
-    	color: #93a8b3;
-    	width: 30px;
-    	height: 100%;
-    	font-size: 1.1rem;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "FontAwesome";
+    content: "\f130";
+    color: #93a8b3;
+    width: 30px;
+    height: 100%;
+    font-size: 1.1rem;
 }
 
 .button
 {
-    	width: 40px;
-    	height: 40px;
-    	border-radius: 10px 10px 10px 10px;
-    	background-color: #12193E;
-    	border: none;
-    	color: #E3E3E7;
-    	margin-left: -74px;
-    	padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #12193E;
+    border: none;
+    color: #E3E3E7;
+    margin-left: -74px;
+    padding: 10px;
 }
 
 #micro .button
@@ -265,16 +266,29 @@ main
 
 
 
+#feat h2:hover
+{	
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color :#3f0d12;
+	background-image :linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+	filter: blur(0.4px);
+	transition: 2s;
+	-webkit-filter: blur(0.4px);
+	box-shadow: 0 0 5px 5px black;
+	transform: scale(1.2);
+	border-radius: 20%;
 
+}
 
 .main-images{
 	margin-left: 25px;
 	margin-right: 35px;
 	margin-top: 40px;
-    	margin-bottom: 40px;
-    	display: flex;
-    	width: 95%;
-    	position: relative;
+    margin-bottom: 40px;
+    display: flex;
+    width: 95%;
+    position: relative;
 }
 
 .main-images:hover
@@ -357,17 +371,23 @@ main
 	width: 90%;
 	box-sizing: border-box;
 	margin-bottom: 5px;
+	margin-left: 5%;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	
 }
 
+
 #latest-release #songs .border:hover
 {
-	background-color: #63d471;
-	background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
-	box-shadow: 0 0 5px 5px black;
+	background-color :#3f0d12;
+	background-image :linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+	filter: blur(0.5px);
+	-webkit-filter: blur(0.5px);
+	box-shadow: 0 0 2px 2px black;
+	transition: 2s;
+	transform: scale(1.09);
 
 }
 
@@ -375,8 +395,10 @@ main
 #latest-release #songs .border .port-display img:hover
 {
 	transform: translateX(9%);
+		filter: blur(-0.5px);
+	-webkit-filter: blur(-0.5px);
 	box-shadow: 0 0 5px 5px black;
-	/*box-shadow: 0 0 10px 10px black;*/
+
 }
 
 #latest-release h3.font-size
@@ -397,6 +419,10 @@ main
 	padding: 5px;
 	width: 45%;
 	background-color: #4E4E50;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
 	border-radius: 10%;
 	/*border:1px solid white;*/
 	height: 100px;
@@ -505,6 +531,27 @@ main
 	font-size: 1.2rem;
 }
 
+#popular-artist h3:hover
+{
+
+	background-color :#3f0d12;
+	background-image :linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+	filter: blur(0.4px);
+	transition: 2s;
+	margin-left: 30%;
+	margin-right: 30%;
+	-webkit-filter: blur(0.4px);
+	box-shadow: 0 0 5px 5px black;
+	transform: scale(1.1);
+	border-radius: 20%;
+}
+
+#cammy :hover 
+{	
+	transition: 2s;
+	transform: scale(0.7);
+}
+
 .inside-pa
 {
 	width: 100%;
@@ -540,6 +587,8 @@ main
 .inside-pa-image figure img:hover
 {
 	box-shadow: 0 0 10px 10px black;
+	transition: 1s;
+
 }
 
 
@@ -568,6 +617,20 @@ main
 
 .stations-border-image img:hover{
 	box-shadow: 0 0 10px 10px black;
+}
+
+#stats:hover
+{
+	margin-left: 40%;
+	margin-right: 40%;
+	background-color :#3f0d12;
+	background-image :linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+	filter: blur(0.4px);
+	transition: 2s;
+	-webkit-filter: blur(0.4px);
+	box-shadow: 0 0 5px 5px black;
+	transform: scale(1.2);
+	border-radius: 20%;	
 }
 
 .stations-border-image img{
@@ -613,10 +676,12 @@ main
 .stations-border-image:hover .overlay{
     opacity: 0.4;
     top: 50%;
+    transition: 1s;
 }
 
 .stations-border-image:hover span{
   	opacity: 1;
+  	transition: 1s;
 }
 
 .stations-border-image:hover img{
@@ -653,7 +718,7 @@ background-image :linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
 	box-shadow: 0 0 20px 20px black;
 	background-color :#3f0d12;
 	background-image :linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
-
+	transition: 1s;
 }
 
 #stations-2
@@ -674,11 +739,15 @@ background-image :linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
     overflow: hidden;
     border-radius: 50%;
     margin:5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .stations-2-image:hover
 {
-	box-shadow: 0 0 15px 15px black;
+	box-shadow: 0 0 9px 9px black;
+	transition: 1s;
+	transform:scale(1.06);
 }
 
 
@@ -868,9 +937,14 @@ main  .inside-q-list:hover
 
 .inside-q-list:hover
 {
-background-color: #d63230;
-background-image: linear-gradient(319deg, #d63230 0%, #f39237 37%, #97cc04 100%);
-box-shadow: 0 0 5px 5px black;
+	background-color: #d63230;
+	background-image: linear-gradient(319deg, #d63230 0%, #f39237 37%, #97cc04 100%);
+	box-shadow: 0 0 5px 5px black;
+	width: 80%;
+	margin-right: 10%;
+	transition: 2s;
+	transform: scale(0.9);
+
 }
 
 
@@ -935,6 +1009,7 @@ box-shadow: 0 0 5px 5px black;
 	border-radius: 20%;
 }
 
+
 .pa-playlist
 {
 	position: absolute;
@@ -951,7 +1026,7 @@ box-shadow: 0 0 5px 5px black;
 }
 
 .pa-play
-{
+{	
 	height: auto;
 	width: 40%;
 	margin-right: 5%;
@@ -972,6 +1047,7 @@ box-shadow: 0 0 5px 5px black;
 	justify-content: center;
 	align-items: center;
 }
+
 
 .pa-playall:hover
 {
@@ -1060,9 +1136,9 @@ box-shadow: 0 0 5px 5px black;
 
 .simi-art .border:hover
 {
-background-color: #36096d;
-background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
-box-shadow: 0 0 5px 5px black;
+	background-color :#3f0d12;
+	background-image :linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+	box-shadow: 0 0 2px 2px black;
 }
 
 /*..................FOOTER...................*/
@@ -1083,13 +1159,16 @@ footer{
 	text-shadow: 2px 2px 2px black;
     margin-left: 15%;
     margin-right: 20%;
+    margin-bottom: 1%;
     box-shadow: 0 0 5px 5px black;
 }
 
 footer:hover
 {
-background-color: #485461;
-background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+	background-color: #485461;
+	background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+	transition: 2s;
+	transform: scale(1.1);
 
 }
 
@@ -1375,10 +1454,7 @@ footer .description-left{
 	}
 }
 
-.pa-intro .pa-des p
-{
-		font-size: 1.2rem;
-}
+
 
 @media screen and (max-width: 500px)
 {
@@ -1392,7 +1468,7 @@ footer .description-left{
 	}
 	.pa-intro .pa-des p
 	{
-		font-size: 0.9rem;
+		font-size: 0.6rem;
 	}
 	
 }
