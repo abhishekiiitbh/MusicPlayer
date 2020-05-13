@@ -34,7 +34,7 @@ a{
     box-shadow: 0 0 5px 5px black;
     box-sizing: border-box;
     z-index: 20;
-
+    transition: all 1s ease-in-out;
     /*background-image: url(Pics/beach1.png);*/
 
 }
@@ -264,7 +264,10 @@ main
 	}
 }
 
-
+#feat h2
+{
+	transition: all 2s ease-in-out;
+}
 
 #feat h2:hover
 {	
@@ -427,6 +430,7 @@ main
 	/*border:1px solid white;*/
 	height: 100px;
 	position: relative;
+	transition: all 1s ease-in-out;
 }
 
 
@@ -519,11 +523,18 @@ main
 	flex-wrap: wrap;
 }
 
+}
+
 
 #popular-artist .inside-pa .inside-pa-image img:hover
 {
 	transform: translateY(-5%);
 
+}
+
+#popular-artist h3
+{
+	transition: all 1s ease-in-out;
 }
 
 #popular-artist h3.font-size
@@ -545,6 +556,7 @@ main
 	transform: scale(1.1);
 	border-radius: 20%;
 }
+
 
 #cammy :hover 
 {	
@@ -582,6 +594,7 @@ main
 	height: 100%;
 	width: 100%;
 	border-radius: 40%;
+	transition: all 1s ease-in-out;
 }
 
 .inside-pa-image figure img:hover
@@ -608,6 +621,7 @@ main
     border-radius: 3rem;
     margin-left: 35px;
     margin-right: 35px;
+    transition: all 3s ease-in-out;
 }
 
 .stations-border-image{
@@ -617,6 +631,11 @@ main
 
 .stations-border-image img:hover{
 	box-shadow: 0 0 10px 10px black;
+}
+
+#stats
+{
+	transition: all 2s ease-in-out;
 }
 
 #stats:hover
@@ -741,6 +760,7 @@ background-image :linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
     margin:5px;
     margin-left: 10px;
     margin-right: 10px;
+    transition: all 1s ease-in-out;
 }
 
 .stations-2-image:hover
@@ -863,6 +883,7 @@ aside
 	position: relative;
 	border-radius: 20%;
 	text-shadow: 2px 2px 2px black;
+	transition: all 1s ease-in-out;
 }
 
 .inside-q-list-image
@@ -959,6 +980,7 @@ main  .inside-q-list:hover
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
+	transition: all 2s ease-in-out;
 }
 
 .pa-intro:hover
@@ -973,12 +995,14 @@ main  .inside-q-list:hover
 	height: inherit;
 	width:40%;
 	margin-right: 10%;
+
 }
 
 .pa-intro-image img
 {
 	height: 100%;
 	width: 100%;
+	transition: all 2s ease-in-out;
 }
 
 .pa-intro-image img:hover 
@@ -994,11 +1018,13 @@ main  .inside-q-list:hover
 	top:2%;
 	left: 42%;
 	margin-bottom:5px;
+
 }
 
 .pa-des h3
 {
 	display: inline;
+	transition: all 2s ease-in-out;
 }
 
 .pa-des h3:hover
@@ -1047,6 +1073,7 @@ main  .inside-q-list:hover
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	transition: all 1s ease-in-out;
 }
 
 
@@ -1103,6 +1130,11 @@ box-shadow: 0 0 5px 5px black;
 {
 	position: relative;
 	margin-bottom: 35px;
+}
+
+.port-display img
+{
+	transition: all 1s ease-in-out;
 }
 
 .port-display img:hover
@@ -1162,13 +1194,13 @@ footer{
     margin-right: 20%;
     margin-bottom: 1%;
     box-shadow: 0 0 5px 5px black;
+    transition: all 2s ease-in-out;
 }
 
 footer:hover
 {
 	background-color: #485461;
 	background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
-	transition: 2s;
 	transform: scale(1.1);
 
 }
@@ -1179,7 +1211,10 @@ footer:hover
 	display: flex;
 	flex-direction: row;
 }
-
+.song-description .thumbnail-xs-square img
+{
+	transition: all 1s ease-in-out;
+}
 .song-description .thumbnail-xs-square img:hover{
 
 	box-shadow: 0 0 5px 5px black;
