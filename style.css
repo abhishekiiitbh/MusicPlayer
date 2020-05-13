@@ -1005,6 +1005,7 @@ main  .inside-q-list:hover
 {
 	background-color :#3f0d12;
 	background-image :linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+	transition: 1s;
 	box-shadow: 0 0 2px 2px black;
 	border-radius: 20%;
 }
@@ -1051,11 +1052,11 @@ main  .inside-q-list:hover
 
 .pa-playall:hover
 {
-	box-shadow: 0 0 2px 2px black;
+	box-shadow: 0 0 5px 5px black;
 	background-color: #a40606;
 	background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
-
-
+	transition:2s;
+	transform: scale(1.2);
 }
 
 #pa-1  .inside-q-list
