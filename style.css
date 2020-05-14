@@ -561,7 +561,7 @@ main
 #cammy :hover 
 {	
 	transition: 2s;
-	transform: scale(0.7);
+	transform: scale(0.9);
 }
 
 .inside-pa
