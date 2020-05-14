@@ -526,11 +526,6 @@ main
 }
 
 
-#popular-artist .inside-pa .inside-pa-image img:hover
-{
-	transform: translateY(-5%);
-
-}
 
 #popular-artist h3
 {
@@ -557,11 +552,16 @@ main
 	border-radius: 20%;
 }
 
+#cammy
+{
+	box-shadow: 0 0 -5px -5px black;
+	transition: all 2s ease-in-out;
+}
 
 #cammy :hover 
 {	
 	transition: 2s;
-	transform: scale(0.9);
+	box-shadow: 0 0 5px 5px black;
 }
 
 .inside-pa
@@ -599,7 +599,8 @@ main
 
 .inside-pa-image figure img:hover
 {
-	box-shadow: 0 0 10px 10px black;
+	box-shadow: 0 0 5px 5px black;
+	transform: scale(1.1);
 	transition: 1s;
 
 }
